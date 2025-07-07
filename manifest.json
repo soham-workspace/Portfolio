@@ -1,0 +1,16 @@
+{
+  "name": "Soham | AI/ML Engineer",
+  "short_name": "Soham",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f1117",
+  "theme_color": "#0f1117",
+  "description": "Portfolio of Soham, AI/ML Engineer & Quantum Explorer.",
+  "icons": [
+    {
+      "src": "icon1212.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

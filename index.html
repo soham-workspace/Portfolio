@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soham | AI & ML Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+   <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0f1117">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>👋 Hi, I'm <span class="highlight">Soham</span></h1>
+      <p class="tagline">AI/ML Engineer & Quantum Explorer</p>
+    </header>
+
+    <section id="about">
+      <h2>🧠 About Me</h2>
+      <p>
+        I’m a curious tech enthusiast, passionate about building intelligent systems that learn, adapt, and evolve. When I’m not coding, I dive into cinema or explore the quantum realm.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>⚙️ Skills</h2>
+      <ul class="skills">
+        <li>Python</li>
+        <li>TensorFlow / PyTorch</li>
+        <li>React.js</li>
+        <li>Qiskit</li>
+        <li>HTML & CSS</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>🚀 Projects</h2>
+      <div class="project">
+        <h3>Stock Performance Dashboard</h3>
+        <p>Built a real-time dashboard that tracks and filters S&P 500 stocks. Clean UI, fast filters, built with React and Chart.js.</p>
+      </div>
+      <div class="project">
+        <h3>Fake News Classifier</h3>
+        <p>Developed an ML pipeline to detect misinformation using NLP techniques. Achieved 94% accuracy on test data.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>📬 Get in Touch</h2>
+      <p>Email me at: <a href="mailto:soham.workspace0@gmail.com">soham.workspace0@gmail.com</a></p>
+      <p>Or find me on: 
+        <a href="#">GitHub</a> • 
+        <a href="#">LinkedIn</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2025 Soham. Crafted with <span class="heart">♥</span> in dark mode.</p>
+    </footer>
+  </div>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./service-worker.js')
+        .then(reg => console.log('✅ Service Worker registered:', reg.scope))
+        .catch(err => console.error('❌ Service Worker registration failed:', err));
+    });
+  }
+</script>
+
+</body>
+</html>

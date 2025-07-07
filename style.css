@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0f1117;
+  color: #e0e0e0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  color: #5edfff;
+}
+
+.tagline {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #aaaaaa;
+}
+
+section {
+  margin: 3rem 0;
+}
+
+section h2 {
+  color: #5edfff;
+  margin-bottom: 1rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.skills li {
+  background: #1c1f26;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.project {
+  background: #1a1d23;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+a {
+  color: #5edfff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid #222;
+  color: #888;
+}
+
+.heart {
+  color: #ff4b5c;
+}
